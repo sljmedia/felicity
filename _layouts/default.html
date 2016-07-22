@@ -35,94 +35,28 @@
 </head>
 
 <body>
-
 	<div id="page">
-		<!--  / Header Wrap  -->
+		<!--  / Header  -->
 		<div class="header-wrap">
-			<!--  / Header  -->
 		    <header id="masthead" class="site-header group" role="banner">
 					<div class="title-area header-image">
 						<h1 class="site-title" itemprop="headline">
-							<a href="/">SLJ Media</a>
+							<a href="/">Felicity</a>
 						</h1>
-						<p class="site-description" itemprop="description"></p>
+						<p class="site-description" itemprop="description">Empowering Parents to Succeed</p>
 					</div>
-					<!--  / Main Navigation  -->
-					<div class="nav-wrap">
-						<nav id="site-navigation" class="main-navigation" role="navigation">
-							<button class="menu-toggle">
-								<span class="toggle-nav">
-								<span class="bar bar-one"></span>
-								<span class="bar bar-two"></span>
-								<span class="bar bar-three"></span>
-								</span>
-					    	</button>
-							<a class="assistive-text" href="#content" title="Skip to content">Skip to content</a>
-							<div class="menu-main-menu-container">
-								<ul id="menu-main-menu" class="nav-menu">
-								    {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
-								    {% for p in navigation_pages %}
-								      	{% if p.navigation_weight %}
-								        	<li>
-								          	<a href="{{ p.url | prepend: site.github.url }}" {% if p.url == page.url %}class="current"{% endif %}>
-								            	{{ p.title }}
-								          	</a>
-								        	</li>
-								      	{% endif %}
-								    {% endfor %}
-								</ul>
-							</div>
-						</nav>
-					</div>
-					<!--  /// Main Navigation.  -->
 		    </header>
-		    <!--  /// Header.  -->
 		</div>
-	    <!--  /// Header Wrap.  -->
-
-	    {{ content }}
-
-	    <!--  / Footer  -->
+	  <!--  /// Header.  -->
+	  {{ content }}
+  	<!--  / Footer  -->
 	    <footer id="footer" class="site-footer" role="contentinfo">
 		    <div class="footer-wrap group">
-		    	<div class="footer-mod footer-brand">
-		    		<h6>SLJ Media</h6>
-		    	</div>
-		    	<div class="footer-mod">
-		    		<p>10a Clifford Court. <br />Cooper Way. <br />Carlisle. <br />CA3 0JG.</p>
-		    		<ul class="contact-info">
-		    			<li><a href="mailto:info@sljmedia.co.uk">info@sljmedia.co.uk</a></li>
-		    			<li>+44 (0)1228 592500</li>
-		    		</ul>
-		    	</div>
-		    	<div class="footer-mod">
-		    		<h6>Jobs</h6>
-		    		<ul>
-		    			<li><a href="#">Back-end Developer</a></li>
-		    			<li><a href="#">Graphic Designer</a></li>
-		    		</ul>
-		    	</div>
-		    	<div class="footer-mod footer-contact-mod">
-		    		<p>If you like what we do, then contact us to find out how we can help you.</p>
-		    		<a class="btn" href="{{ page.url | prepend: site.github.url }}contact">Contact</a>
-		    	</div>
+					<p class="phone">+44 (0) 1697 73167</p>
+					<p class="c-notice"><small>&copy; 2016 Felicity Whittle. All Rights Reserved.</small></p>
 		    </div>
-			<div class="copyright group">
-			    <div class="c-notice-wrap">
-				    <p class="c-notice"><small>&copy; 2016 SLJ Media. All Rights Reserved.</small></p>
-					<!--
-					<ul class="menu-legal">
-						<li><a href="#">Cookies</a></li>
-						<li><a href="#">Privacy Statement</a></li>
-						<li><a href="#">Disclaimer</a></li>
-					</ul>
-					-->
-				</div>
-			</div>
-			<a href="#" class="top" title="Top"></a>
 	    </footer>
 	    <!--  /// Footer.  -->
-
 	</div>
 	<!--  /// Page.  -->
 
