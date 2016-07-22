@@ -681,7 +681,7 @@ input[type="submit"] {
 /* Site Header
 ------------------------------------------------*/
 .header-wrap {
-    background: url(images/hdr_felicity.jpg) no-repeat left top;
+    background: url(../images/hdr_felicity.jpg) no-repeat left top;
     background-size: cover;
     width: 100%;
 }
@@ -695,13 +695,7 @@ input[type="submit"] {
 /* Title Area
 --------------------------------------------- */
 .title-area {
-    float: left;
-    margin-left: 1.5em;
     padding: 1.4em 0;
-}
-
-.header-wrap.smaller .title-area {
-    padding: 1em 0;
 }
 
 .site-title {
@@ -719,14 +713,14 @@ input[type="submit"] {
 
 /* Logo */
 .header-image .site-title > a {
-    background: url(../images/logo_SLJMedia.png) no-repeat left;
-    -webkit-background-size: 110px;
-    -moz-background-size: 110px;
-    -o-background-size: 110px;
-    background-size: 110px; /* Logo image size for small screen */
+    background: url(../images/logo_felicity.png) no-repeat left;
+    -webkit-background-size: 140px;
+    -moz-background-size: 140px;
+    -o-background-size: 140px;
+    background-size: 140px; /* Logo image size for small screen */
     display: block;
-    min-height: 28px;
-    width: 111px;
+    min-height: 85px;
+    width: 1140px;
 }
 
 .header-wrap.smaller .header-image .site-title > a {
