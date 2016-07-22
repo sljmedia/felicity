@@ -1,10 +1,10 @@
 /* ------------------------------------------------------------------------------------------------------------------
 
-    SLJ Media
+    Felicity
 
     SCREEN - Core Stylesheet
 
-    Web                 : http://web.furness.net/slj/
+    Web                 : http://sljmedia.github.io/felicity
     Filename            : style.css
     Last Updated        : 08. 07. 2016 - 14:15pm
     Copyright           : (c) 2016 Furness Internet
@@ -671,53 +671,25 @@ input[type="submit"] {
     position: absolute;
     width: 1px;
 }
-
-.row {clear: both;}
-
 /*-------------------------------------------------------------------------------------------------------------------
     =Header
 --------------------------------------------------------------------------------------------------------------------*/
-
 /* Skip Nav
 -------------------------------------------------*/
-.nav-skip {
-    display: none;
-}
+.nav-skip {display: none;}
 
 /* Site Header
 ------------------------------------------------*/
 .header-wrap {
-    background: rgba(241,241,241,1);
-    display: block;
-    left: 0;
-    position: fixed;
-    top: 0;
+    background: url(images/hdr_felicity.jpg) no-repeat left top;
+    background-size: cover;
     width: 100%;
-    z-index: 1000;
-    -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
-    -ms-transition: padding 0.3s;
-    -o-transition: padding 0.3s;
-    transition: padding 0.3s;
-/*
-    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
-    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
-    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);*/
-}
-
-.header-wrap.smaller {
-    background: rgba(255,255,255,1); /* 90% opacity on smaller header */
-    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
-    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
-    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
 }
 
 .site-header {
-    background: rgba(241,241,241,1);
+    background: rgba(252,222,222,.9);
     margin: 0 auto;
-    max-width: 126em; /* 1260px / 10px */
     position: relative;
-
 }
 
 /* Title Area
