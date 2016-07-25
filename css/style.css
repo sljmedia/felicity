@@ -407,6 +407,7 @@ input[type="submit"],
     font: 600 1.4em "brandon-grotesque", "ff-dagny-web-pro", "open-sans", sans-serif;
     letter-spacing: 1px;
     padding: 1em 1.7em;
+    padding-top: 1.1em;
     text-transform: uppercase;
     word-spacing: 1px;
 
@@ -446,7 +447,7 @@ input[type="submit"]:hover,
 input[type="submit"]:focus,
 .btn:hover,
 .btn:focus {
-    background: #ac8b3d;
+    background: #c7a451;
     border: none;
     color: #835269;
 }
