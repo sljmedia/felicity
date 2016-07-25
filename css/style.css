@@ -406,7 +406,7 @@ input[type="submit"],
     display: inline-block;
     font: 600 1.4em "brandon-grotesque", "ff-dagny-web-pro", "open-sans", sans-serif;
     letter-spacing: 1px;
-    padding: 1.3em 1.7em 1.3em 1.9em;
+    padding: 1.2em 1.7em;
     text-transform: uppercase;
     word-spacing: 1px;
 
@@ -537,7 +537,7 @@ input, textarea, select {
     border: 1px solid #c1c5c6;
     display: inline-block;
     margin-bottom: 0.375em;
-    padding: 10px;
+    padding: 12px;
 
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -993,7 +993,7 @@ input[type="submit"] {
     clear: both;
 }
 .intro {
-    padding: 4em 2em 3em 2em;
+    padding: 5em 3em 5em 3em;
     position: relative;
 }
 
@@ -1009,7 +1009,7 @@ input[type="submit"] {
 }
 
 .intro p.sig {
-    font-weight: 600;
+    font: 600 1.8em "brandon-grotesque", "ff-dagny-web-pro", "open-sans", sans-serif;
 }
 
 .intro p.sig span {
@@ -1022,8 +1022,26 @@ input[type="submit"] {
     =Contact Form
 --------------------------------------------------------------------------------------------------------------------*/
 .form-wrap {
-    background: rgba(131,82,105,1);
-    padding: 4em 2em 3em 2em;
+    background: rgba(131,82,108,1);
+    padding: 5em 3em;
+    padding-top: 6em;
+    position: relative;
+}
+
+.form-wrap:before {
+    background: rgba(212,181,105,1);
+    border-radius: 3px;
+    content: "";
+    display: block;
+    height: 30px;
+    left: 50%;
+    margin-left: -15px;
+    position: absolute;
+    top: -15px;
+    width: 30px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
 }
 
 .form-wrap input[type="text"],
@@ -1032,9 +1050,15 @@ input[type="submit"] {
 .form-wrap textarea {
     background: rgba(255,255,255,.1);
     border: 1px solid #d4b56c;
+    border: 0 none;
     color: #d4b56c;
     font-size: 1.3em;
     text-transform: uppercase;
+    width: 100%;
+}
+
+.form-wrap input[type="submit"] {
+    font-size: 1.5em;
     width: 100%;
 }
 
@@ -1045,10 +1069,10 @@ input[type="submit"] {
 
 .form-wrap input placeholder,
 .form-wrap textarea placeholder,
-.form-wrap ::-webkit-input-placeholder,
-.form-wrap :-moz-placeholder,
-.form-wrap ::-moz-placeholder,
-.form-wrap :-ms-input-placeholder {
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder {
     color: #d4b56c;
 }
 
