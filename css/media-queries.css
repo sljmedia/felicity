@@ -403,6 +403,9 @@
   .intro {
       padding-top: 12em;
   }
+  .intro p {
+      font-size: 1.8em;
+  }
   .form-wrap {
       height: 680px;
       padding-top: 8em;
