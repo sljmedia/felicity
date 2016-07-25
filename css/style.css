@@ -404,10 +404,10 @@ input[type="submit"],
     color: #835269;
     cursor: pointer;
     display: inline-block;
-    font-size: 1.2em;
-    font-weight: 400;
+    font: 600 1.4em "brandon-grotesque", "ff-dagny-web-pro", "open-sans", sans-serif;
     letter-spacing: 1px;
     padding: 1.3em 1.7em 1.3em 1.9em;
+    text-transform: uppercase;
     word-spacing: 1px;
 
     -webkit-transition: all 0.3s ease-in-out; /* safari and chrome */
@@ -987,12 +987,10 @@ input[type="submit"] {
     =Intro
 --------------------------------------------------------------------------------------------------------------------*/
 .intro-wrap {
-    background: #fff;
+    background: rgba(255,255,255,1);
     clear: both;
 }
 .intro {
-    margin: 0 auto;
-    max-width: 126em;
     padding: 4em 2em 3em 2em;
     position: relative;
 }
@@ -1003,454 +1001,58 @@ input[type="submit"] {
 }
 
 .intro p {
-    font-size: 1.5em;
+    color: #835269;
+    font-size: 1.6em;
     margin-bottom: 1.5em;
 }
 
-.intro p b {
-    color: #223740;
+.intro p.sig {
+    font-weight: 600;
 }
 
-.intro .btn {
-    font-size: 1.2em;
-}
-
-.intro-content h3 {
-    font-size: 1.8em;
-    font-weight: 500;
-    margin-bottom: 1em;
-}
-
-.intro-logo {
-    padding-top: 1em;
-    width: 200px;
+.intro p.sig span {
+    color: #d4b56c;
+    font-size: .850em;
+    font-weight: 400;
 }
 
 /*-------------------------------------------------------------------------------------------------------------------
-    =Slideshow
+    =Contact Form
 --------------------------------------------------------------------------------------------------------------------*/
-
-/* jQuery FlexSlider v1.8
- * http://flex.madebymufffin.com
- *
- * Copyright 2011, Tyler Smith
- * Free to use under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
--------------------------------------------------*/
-
-/* Browser Resets
--------------------------------------------------*/
-@font-face {
-  font-family: 'flexslider-icon';
-  src: url('fonts/flexslider-icon.eot');
-  src: url('fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('fonts/flexslider-icon.woff') format('woff'), url('fonts/flexslider-icon.ttf') format('truetype'), url('fonts/flexslider-icon.svg#flexslider-icon') format('svg');
-  font-weight: normal;
-  font-style: normal;
+.form-wrap {
+    background: rgba(131,82,105,1);
+    margin-bottom: 4em;
+    padding: 4em 2em 3em 2em;
 }
 
-/* Browser Resets
--------------------------------------------------*/
-.flex-container a:active,
-.flexslider a:active {outline: none;}
-
-.slides, .flex-control-nav, .flex-direction-nav {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-/* FlexSlider Necessary Styles
--------------------------------------------------*/
-.flex-container {
-    margin: 0 auto; /* Allow for absolutely positioned navigation */
-    max-width: 126em;
-    padding: 2em 0;
-    position: relative;
-    zoom: 1;
-}
-
-.flexslider {
-    padding: 0;
-}
-.flexslider .slides > li:first-child {display: block; -webkit-backface-visibility: visible;}
-.flexslider .slides > li {
-    display: none;
-    margin: 0;
-    padding: 0;
-} /* Hide the slides before the JS is loaded. Avoids image jumping */
-
-.flexslider .slides img {
-    display: block;
-    height: auto;
-    max-width: 100%;
-    opacity: 1;
-    -moz-user-select: none;
-}
-.flex-pauseplay span { text-transform: capitalize; }
-
-/* Clearfix for the .slides element */
-.flexslider .slides:after {
-    clear: both;
-    content: ".";
-    display: block;
-    height: 0;
-    line-height: 0;
-    visibility: hidden;
-}
-html[xmlns] .slides {display: block;}
-* html .slides {height: 1%;}
-
-/* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
-.no-js .slides > li:first-child {display: block;}
-
-
-/* FlexSlider Default Theme
--------------------------------------------------*/
-.flexslider {
-    position: relative;
-    zoom: 1;
-}
-
-.flexslider .slides {
-    zoom: 1;
-}
-
-.flexslider .slides > li { margin: 0; position: relative; }
-/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
-
-/* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
-.no-js .slides > li:first-child {display: block;}
-
-/* Slide Content
--------------------------------------------------*/
-.caption-wrap {
-    background: #222a2e;
-    display: none;
-    margin: 0 auto;
-    padding: 2.5em 1.5em 3em 1.5em;
+.form-wrap input[type="text"],
+.form-wrap input[type="tel"],
+.form-wrap input[type="email"],
+.form-wrap textarea {
+    background: rgba(255,255,255,.1);
+    border: 1px solid #d4b56c;
+    color: #d4b56c;
+    font-size: 1.3em;
+    text-transform: uppercase;
     width: 100%;
 }
 
-.caption {
-    margin: 0 auto;
-    max-width: 120em;
+.form-wrap input:focus, .form-wrap textarea:focus {
+    background: rgba(255,255,255,0);
+    border: 1px solid #d4b56c;
 }
 
-.caption h2 {
-    color: #fff;
-    font: 400 1.5em/1.3 "open-sans", 'Roboto', sans-serif;
-    margin-bottom: .8em;
+.form-wrap input placeholder,
+.form-wrap textarea placeholder,
+.form-wrap ::-webkit-input-placeholder,
+.form-wrap :-moz-placeholder,
+.form-wrap ::-moz-placeholder,
+.form-wrap :-ms-input-placeholder {
+    color: #d4b56c;
 }
 
-/* Direction Nav
--------------------------------------------------*/
-.flex-direction-nav a {
-  /*background: rgba(245, 132, 38, 0.8);*/
-  border-radius: 500px;
-  box-sizing: border-box;
-  text-decoration: none;
-  /*display: none;*/
-  width: 40px;
-  height: 40px;
-  margin: -20px 0 0;
-  position: absolute;
-  top: 60%;
-  z-index: 10;
-  overflow: hidden;
-  opacity: 0;
-  /*padding: 11px 18px 12px 18px;*/
-  cursor: pointer;
-  color: rgba(245, 132, 38, 0.8);
-  /*text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);*/
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.flex-direction-nav a:before {
-  font-family: "flexslider-icon";
-  font-size: 30px;
-  display: inline-block;
-  content: '\f001';
-  color: rgba(73, 110, 102, 0.8);
-  /*text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);*/
-}
-.flex-direction-nav a.flex-next:before {
-  content: '\f002';
-}
-.flex-direction-nav .flex-prev {
-  left: 15px;
-}
-.flex-direction-nav .flex-next {
-  right: 15px;
-  text-align: right;
-}
-.flexslider:hover .flex-direction-nav .flex-prev {
-  opacity: 0.7;
-  left: 10px;
-}
-.flexslider:hover .flex-direction-nav .flex-prev:hover {
-  opacity: 1;
-}
-.flexslider:hover .flex-direction-nav .flex-next {
-  opacity: 0.7;
-  right: 10px;
-}
-.flexslider:hover .flex-direction-nav .flex-next:hover {
-  opacity: 1;
-}
-.flex-direction-nav .flex-disabled {
-  opacity: 0!important;
-  filter: alpha(opacity=0);
-  cursor: default;
-  z-index: -1;
-}
-.flex-pauseplay a {
-  display: block;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  bottom: 5px;
-  left: 10px;
-  opacity: 0.8;
-  z-index: 10;
-  overflow: hidden;
-  cursor: pointer;
-  color: #000;
-}
-.flex-pauseplay a:before {
-  font-family: "flexslider-icon";
-  font-size: 20px;
-  display: inline-block;
-  content: '\f004';
-}
-.flex-pauseplay a:hover {
-  opacity: 1;
-}
-.flex-pauseplay a.flex-play:before {
-  content: '\f003';
-}
-
-/* Control Nav
--------------------------------------------------*/
-
-.flex-control-nav {
-    display: none;
-    /*position: absolute;
-    bottom: 40px;
-    width: 100%;*/
-    z-index: 400;
-}
-
-.flex-control-nav li {
-    *display: inline;
-    display: inline-block;
-    margin: 0 6px;
-    zoom: 1;
-}
-
-.flex-control-thumbs {
-    overflow: hidden;
-    position: static;
-}
-.flex-control-thumbs li {
-    background: #496e66;
-    border-radius: 500px;
-    float: none;
-    margin: 0;
-    margin-left: 2em;
-    width: 100px;
-}
-.flex-control-thumbs img {
-    border-radius: 500px;
-    cursor: pointer;
-    display: block;
-    height: auto;
-    opacity: .4;
-    width: 100%;
-    -moz-user-select: none;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-}
-.flex-control-thumbs img:hover {
-    opacity: 1;
-}
-.flex-control-thumbs .flex-active {
-    border: 3px solid #d3b028;
-    opacity: 1;
-    cursor: default;
-}
-
-/*-------------------------------------------------------------------------------------------------------------------
-    =Portfolio Blocks
---------------------------------------------------------------------------------------------------------------------*/
-.featured-wrap, .portfolio-wrap {
-    clear: both;
-    margin: 0 auto;
-    max-width: 1260px;
-}
-
-.portfolio-wrap {
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-
-.featured-card, .portfolio-item {
-    margin-bottom: 1.58730158730159%;
-    position: relative;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.portfolio-item-quarter {
-    margin-bottom: 3.2258064516129%; /* 20px / 620px */
-}
-
-.portfolio-item-large {
-    clear: both;
-}
-
-.card-content h3,
-.feature-content h3,
-.article-overlay h3,
-.card-content p,
-.feature-content p {
-    color: #fff;
-}
-
-.card-content p.more,
-.feature-content p.more {
-    display: none;
-    font-size: 1.2em;
-    letter-spacing: .2em;
-}
-
-.card-content p.more:after,
-.feature-content p.more:after {
-    color: #fff;
-}
-
-.card-content h3,
-.feature-content h3,
-.article-overlay h3 {
-    font-size: 1.8em;
-    margin-bottom: 0
-}
-
-.card-overlay,
-.portfolio-overlay,
-.article-link {
-    overflow: hidden;
-    z-index: 1000;
-}
-
-/*
-.card-overlay:after {
-    background-color: transparent;
-    -webkit-transition: background .4s ease 0s;
-    transition: background .4s ease 0s;
-    background-image: -webkit-linear-gradient(270deg, rgba(0,0,0,0) 0, rgba(0,0,0,0.85) 100%);
-    background-image: linear-gradient(180deg, rgba(0,0,0,0) 0, rgba(0,0,0,0.85) 100%);
-    height: 102%;
-    width: 102%;
-    position: absolute;
-    top: -1%;
-    right: -1%;
-    bottom: -1%;
-    left: -1%;
-    z-index: 1;
-    background-color: transparent;
-    content: '';
-}
-*/
-.card-content-wrap, .feature-content-wrap, .article-overlay {
-    background: rgba(201, 42, 39, 1);
-    padding: 2em;
-    -webkit-transition: background 0.3s ease-in-out;
-    transition: background 0.3s ease-in-out;
-}
-
-.featured-card-image, .portfolio-feature-image {
-    overflow: hidden;
-}
-
-.featured-card-image img, .portfolio-feature-image img {
-    -webkit-transition: -webkit-transform .4s ease 0s;
-    transition: transform .4s ease 0s;
-
-}
-
-.card-overlay:hover .featured-card-image img,
-.portfolio-overlay:hover .portfolio-feature-image img,
-.portfolio-feature-image:hover img {
-    -webkit-transform: scale(1.025) translateY(1%);
-    -ms-transform: scale(1.025) translateY(1%);
-    transform: scale(1.025) translateY(1%);
-}
-
-.card-content, .feature-content, .article-overlay-content {
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    height: 86.5%;
-}
-
-.feature-content ul.work-labels,
-.article-overlay ul.work-labels {
-    bottom: 0;
-    display: none;
-    left: 0;
-    position: absolute;
-    white-space: pre-line; /* Stacks inline-block list items within the parent */
-}
-
-.feature-content ul.work-labels li,
-.article-overlay ul.work-labels li {
-    border: 1px solid #fff;
-    clear: both;
-    color: #fff;
-    display: inline-block;
-    margin-bottom: .6em;
-    padding: .325em .6em;
-}
-
-.portfolio-item .quote {
-    left: 0;
-    padding: 3em;
-    padding-right: 2em;
-    position: absolute;
-    top: 0;
-}
-
-.portfolio-item-quote {
-    background: #e6e6e6;
-}
-
-.portfolio-item blockquote p,
-.portfolio-item blockquote cite {
-    color: #666;
-}
-
-.portfolio-item blockquote {
-    text-align: left;
-}
-
-.portfolio-item blockquote p {
-    font-size: 2.1em;
-    line-height: 1.6;
-}
-
-.portfolio-item blockquote cite b {
-    color: #222;
-    display: block;
+.form-wrap h3 {
+    color: #d4b56c;
 }
 
 /*-------------------------------------------------------------------------------------------------------------------
@@ -1465,24 +1067,6 @@ html[xmlns] .slides {display: block;}
     margin: 0 auto;
     max-width: 1260px;
     padding: 3em 2em;
-}
-
-.footer-mod {
-    margin-bottom: 3em;
-}
-
-.footer-mod h6 {
-    margin-bottom: 0;
-}
-
-.footer-brand h6 {
-    border-bottom: 1px solid #222;
-    display: inline-block;
-    margin-bottom: 0;
-}
-
-.footer-contact-mod p {
-    margin-bottom: 1em;
 }
 
 /* Copyright
@@ -1790,11 +1374,6 @@ html[xmlns] .slides {display: block;}
 .form-wrap input, .form-wrap textarea {
     width: 100%;
 }
-
-#content .contact-details li {margin-bottom: .5em;}
-#content .contact-details li.phone:before {content: "\f095";}
-#content .contact-details li.email:before {content: "\f003";}
-
 /* Google Map
 -------------------------------------------------*/
 .google-map {
