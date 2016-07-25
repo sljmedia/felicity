@@ -1095,7 +1095,7 @@ input[type="submit"] {
 /* Quote
 -------------------------------------------------- */
 .quote-wrap {
-    background: rgba(254,219,219,.5);
+    background: rgba(254,219,219,.7);
     clear: both;
 }
 

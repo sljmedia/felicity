@@ -36,7 +36,7 @@ layout: default
       	</fieldset>
       	<fieldset class="fieldset-submit">
       	   <!--<input type="submit" value="Send Enquiry" id="button">-->
-           <a class="btn" href="/thanks">Send Enquiry</a>
+           <a class="btn" href="{{ page.url | prepend: site.github.url }}thanks">Send Enquiry</a>
       	</fieldset>
       </form>
     </div>
