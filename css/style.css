@@ -603,14 +603,10 @@ textarea:focus {
     border: 1px solid #8d631b;
 }
 
-::-webkit-input-placeholder,
-:-moz-placeholder,
-::-moz-placeholder,
-:-ms-input-placeholder,
-input-placeholder {
-   color: #625f59;
-}
-
+::-webkit-input-placeholder {color: #d4b56c;}
+:-ms-input-placeholder {color: #d4b56c;}
+::-moz-placeholder {color: #d4b56c;}
+::-moz-placeholder {color: #d4b56c;}
 
 /* Form error
 -------------------------------------------------*/
@@ -1065,16 +1061,17 @@ input[type="submit"] {
     background: rgba(255,255,255,0);
     border: 1px solid #d4b56c;
 }
-
+/*
 .form-wrap input placeholder,
 .form-wrap textarea placeholder,
-::-webkit-input-placeholder,
-:-moz-placeholder,
-::-moz-placeholder,
-:-ms-input-placeholder {
+.form-wrap input::-webkit-input-placeholder,
+.form-wrap input:-moz-placeholder,
+.form-wrap input::-moz-placeholder,
+.form-wrap input::-ms-input-placeholder,
+.form-wrap input::placeholder {
     color: #d4b56c;
 }
-
+*/
 .form-wrap h3 {
     color: #d4b56c;
 }
