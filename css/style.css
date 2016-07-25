@@ -695,7 +695,7 @@ input[type="submit"] {
 /* Title Area
 --------------------------------------------- */
 .title-area {
-    padding: 1.4em 0;
+    padding: 2em 0;
 }
 
 .site-title {
@@ -714,22 +714,14 @@ input[type="submit"] {
 /* Logo */
 .header-image .site-title > a {
     background: url(../images/logo_felicity.png) no-repeat left;
-    -webkit-background-size: 140px;
-    -moz-background-size: 140px;
-    -o-background-size: 140px;
-    background-size: 140px; /* Logo image size for small screen */
+    -webkit-background-size: 120px;
+    -moz-background-size: 120px;
+    -o-background-size: 120px;
+    background-size: 120px; /* Logo image size for small screen */
     display: block;
-    min-height: 85px;
-    width: 1140px;
-}
-
-.header-wrap.smaller .header-image .site-title > a {
-    -webkit-background-size: 90px;
-    -moz-background-size: 90px;
-    -o-background-size: 90px;
-    background-size: 90px; /* Logo image size for small screen */
-    min-height: 40px;
-    width: 91px;
+    margin: 0 auto;
+    min-height: 74px;
+    width: 120px;
 }
 
 .site-description,
@@ -749,24 +741,6 @@ input[type="submit"] {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.5;
-}
-
-/* Title Area
---------------------------------------------- */
-.header-intro-wrap {
-    background: #222;
-    margin-top: 65px;
-}
-
-.header-intro {
-    padding: 2em 2em;
-}
-
-.header-intro h3 {
-    color: #f1f1f1;
-    font-size: 1.8em;
-    font-weight: 600;
-    margin-bottom: 0;
 }
 
 /*-------------------------------------------------------------------------------------------------------------------
@@ -966,19 +940,6 @@ input[type="submit"] {
             box-shadow: 0 2px 6px rgba(0, 0, 0, .4);*/
 }
 
-/* Arrow before nav
-.main-navigation li .sub-menu:before {
-    border: 12px solid transparent;
-    border-bottom-color: #fff;
-    content: ' ';
-    height: 0;
-    left: 2.1em;
-    position: absolute;
-    top: -21px;
-    width: 0;
-    z-index: 2;
-}
-*/
 .main-navigation li .sub-menu li {
     display: block;
     float: none;
@@ -1023,11 +984,6 @@ input[type="submit"] {
     -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, .2);
        -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, .2);
             box-shadow: 0 3px 6px rgba(0, 0, 0, .2);
-}
-
-.isStuck {
-    background: rgba(73,110,102,.9);
-    width: 100%;
 }
 
 /*-------------------------------------------------------------------------------------------------------------------
