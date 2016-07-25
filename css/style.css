@@ -988,6 +988,8 @@ input[type="submit"] {
 --------------------------------------------------------------------------------------------------------------------*/
 .intro-wrap {
     background: rgba(255,255,255,1);
+    background: #fff url(../images/logo_silhouette.png) no-repeat center bottom;
+    background-size: cover;
     clear: both;
 }
 .intro {
@@ -1021,7 +1023,6 @@ input[type="submit"] {
 --------------------------------------------------------------------------------------------------------------------*/
 .form-wrap {
     background: rgba(131,82,105,1);
-    margin-bottom: 4em;
     padding: 4em 2em 3em 2em;
 }
 
@@ -1059,38 +1060,84 @@ input[type="submit"] {
     =Footer
 --------------------------------------------------------------------------------------------------------------------*/
 #footer {
+    background: #fcdede url(../images/home_quote.jpg) no-repeat center center;
+    background-size: cover;
+    clear: both;
+    width: 100%;
+}
+
+/* Quote
+-------------------------------------------------- */
+.quote-wrap {
+    background: rgba(254,219,219,.4);
     clear: both;
 }
 
+.quote {
+    padding: 3em 2em;
+    text-align: center;
+}
+
+/* Footer - Contact
+-------------------------------------------------- */
 .footer-wrap {
     background: #fff;
+    clear: both;
+    position: relative;
+}
+
+.footer-contact {
     margin: 0 auto;
     max-width: 1260px;
     padding: 3em 2em;
 }
 
+.footer-wrap:before {
+    border: 15px solid transparent; /* arrow size */
+    border-bottom-color: #fff;  /* arrow color */
+    content: '';
+    height: 0;
+    left: 50%;
+    margin-left: -15px;
+    position: absolute;
+    top: -30px;
+    width: 0;
+    z-index: 2;
+}
+
 /* Copyright
 -------------------------------------------------- */
-.copyright {
-    margin: 0 auto;
+p.c-notice, p.phone {
+    color: #d4b56c;
+    font-family: "brandon-grotesque", "ff-dagny-web-pro", "open-sans", sans-serif;
+    letter-spacing: .075em;
 }
 
-.c-notice-wrap {
-    /*margin: 0 auto;
-    max-width: 1260px;*/
-    padding: 2em;
+p.phone {
+    font-size: 1.8em;
+    font-weight: 400;
+    padding-bottom: 1em;
+    position: relative;
 }
 
-.copyright p {
-    color: #949fa6;
-    font-size: 1.4em;
+p.phone:after {
+    background: #d4b56c;
+    content: "";
+    display: block;
+    height: 3px;
+    margin-top: 10px;
+    width: 65px;
 }
 
-.menu-legal {
-    font-size: 1.5em;
-    margin-bottom: 1.5em;
-}
+p.c-notice {font-size: 1.3em;}
 
+.footer-bar {
+    background: rgba(131,82,105,.825);
+    clear: both;
+    display: block;
+    height: 38px;
+    width: 100%;
+}
 /*-------------------------------------------------------------------------------------------------------------------
 
     =Pages
@@ -1368,12 +1415,7 @@ input[type="submit"] {
 /*-------------------------------------------------------------------------------------------------------------------
     =Contact
 --------------------------------------------------------------------------------------------------------------------*/
-.form-wrap {
-    margin-bottom: 5em;
-}
-.form-wrap input, .form-wrap textarea {
-    width: 100%;
-}
+
 /* Google Map
 -------------------------------------------------*/
 .google-map {
