@@ -34,26 +34,11 @@
         min-height: 35px;
         width: 141px;
     }
-
-    .header-wrap.smaller .header-image .site-title > a {
-        -webkit-background-size: 120px;
-        -moz-background-size: 120px;
-        -o-background-size: 120px;
-        background-size: 120px; /* Logo image size for small screen */
-        min-height: 51px;
-        width: 121px;
-    }
 	  .menu-toggle {top: 2.4em;}
     .main-navigation ul.nav-menu.toggled-on, .header-intro-wrap, .sub-navigation, .subheader-wrap {margin-top: 75px;}
-    .header-intro {padding: 3.4em 2em 2.8em 2em;}
-    .header-intro h3, .subheader h3 {font-size: 2.1em;}
 
     /* Pages
     -------------------------------------------*/
-    .entry-header {padding: 4em; padding-bottom: 3em;}
-    /*.article-compact .entry-header {padding: 3em; padding-bottom: 2em;}*/
-    .entry-content {padding: 4em; padding-top:0;}
-    /*.article-compact .entry-content {padding: 0 3em;}*/
 }
 
 /*-------------------------------------------------------------------------------------------------------------------
@@ -62,7 +47,6 @@
 @media screen and (min-width: 740px) {
     /* Typography
     -------------------------------------------*/
-
     /* Header
     -------------------------------------------*/
     .title-area {
@@ -78,13 +62,6 @@
         width: 168px;
     }
     .header-intro-wrap, .sub-navigation, .subheader-wrap {margin-top: 112px;}
-    .sub-navigation, .subheader {padding: 3.4em 0 2.8em 2.5em;}
-    .sub-navigation li a {margin-right: 0;}
-    .sub-navigation li, .sub-navigation li a.active {margin-right: 20px;}
-    .header-intro, .subheader {
-        padding: 3.4em 0 2.8em 0;
-        margin-left: 50.79365079365079%; /* 640px / 1260px */
-    }
 
     /* Navigation
     -------------------------------------------*/

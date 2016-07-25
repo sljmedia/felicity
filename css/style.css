@@ -1114,10 +1114,12 @@ p.c-notice, p.phone {
 }
 
 p.phone {
+    /*display: inline-block;*/
     font-size: 1.8em;
     font-weight: 400;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
     position: relative;
+    text-align: center;
 }
 
 p.phone:after {
@@ -1125,11 +1127,17 @@ p.phone:after {
     content: "";
     display: block;
     height: 3px;
-    margin-top: 10px;
-    width: 65px;
+    left: 50%;
+    margin: 10px 0 0 -35px;
+    position: absolute;
+    text-align: center;
+    width: 70px;
 }
 
-p.c-notice {font-size: 1.3em;}
+p.c-notice {
+    font-size: 1.3em;
+    text-align: center;
+}
 
 .footer-bar {
     background: rgba(131,82,105,.825);
