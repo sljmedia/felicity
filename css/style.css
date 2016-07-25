@@ -1117,6 +1117,7 @@ input[type="submit"] {
     margin: 0 auto;
     max-width: 1260px;
     padding: 3em 2em;
+    position: relative;
 }
 
 .footer-wrap:before {
