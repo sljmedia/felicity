@@ -987,13 +987,12 @@ input[type="submit"] {
     =Intro
 --------------------------------------------------------------------------------------------------------------------*/
 .intro-wrap {
-    background: rgba(255,255,255,1);
+    background: #fff url(../images/logo_silhouette.png) no-repeat center bottom;
+    background-size: 100%;
     position: relative;
 }
 
 .intro {
-    background: url(../images/logo_silhouette.png) no-repeat center bottom;
-    background-size: 100%;
     padding: 5em 3em 5em 3em;
 }
 
