@@ -1101,6 +1101,10 @@ input[type="submit"] {
     text-align: center;
 }
 
+.quote h4 {
+    letter-spacing: .1em;
+}
+
 /* Footer - Contact
 -------------------------------------------------- */
 .footer-wrap {
