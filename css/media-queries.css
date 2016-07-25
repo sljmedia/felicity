@@ -24,15 +24,15 @@
 @media screen and (min-width: 620px) {
     /* Header
     -------------------------------------------*/
-    .title-area {padding: 1.8em 0;}
+    .title-area {padding: 2.5em 0;}
     /*.header-wrap.smaller .title-area {padding: 2.5em 0;}*/
     .header-image .site-title > a {
-        -webkit-background-size: 140px;
-        -moz-background-size: 140px;
-        -o-background-size: 140px;
-        background-size: 140px; /* Logo image size for small screen */
-        min-height: 35px;
-        width: 141px;
+        -webkit-background-size: 160px;
+        -moz-background-size: 160px;
+        -o-background-size: 160px;
+        background-size: 160px; /* Logo image size for small screen */
+        min-height: 97px;
+        width: 161px;
     }
 	  .menu-toggle {top: 2.4em;}
     .main-navigation ul.nav-menu.toggled-on, .header-intro-wrap, .sub-navigation, .subheader-wrap {margin-top: 75px;}
@@ -50,16 +50,15 @@
     /* Header
     -------------------------------------------*/
     .title-area {
-        margin-left: 2.5em;
         padding: 3.5em 0;
     }
     .header-image .site-title > a {
-        -webkit-background-size: 167px;
-        -moz-background-size: 167px;
-        -o-background-size: 167px;
-        background-size: 167px; /* Logo image size for small screen */
-        min-height: 42px;
-        width: 168px;
+        -webkit-background-size: 200px;
+        -moz-background-size: 200px;
+        -o-background-size: 200px;
+        background-size: 200px; /* Logo image size for small screen */
+        min-height: 122px;
+        width: 201px;
     }
     .header-intro-wrap, .sub-navigation, .subheader-wrap {margin-top: 112px;}
 
@@ -143,99 +142,21 @@
     .header-wrap.smaller .menu-toggle {top: 2em;}
     .header-wrap.smaller .main-navigation ul.nav-menu.toggled-on {margin-top: 5.6em;}
 
-    .intro h2 {font-size: 5em;}
+    /* Intro
+    -------------------------------------------*/
+    .intro {
+        padding: 6em 3em;
+    }
+    .intro h2 {font-size: 3.6em;}
 
-    /* Slides
-    -------------------------------------------*/
-    .featured-card {
-        float: left;
-        margin-right: 1.58730158730159%;
-        /*margin-bottom: 0;*/
-        width: 49.20634920634921%;
-    }
-    .featured-card:nth-child(2n) {
-        margin-right: 0;
-    }
-    /*
-    .featured-card:last-child {
-        margin-right: 0
-    }
-    */
-    /* Featured
-    -------------------------------------------*/
-     .card-content-wrap, .feature-content-wrap, .article-overlay {
-        background: rgba(201, 42, 39, 0);
-        height: 100%;
-        left: 0;
-        padding: 3em;
-        position: absolute;
-        top: 0;
-        width: 100%;
-    }
-    .card-overlay:hover .card-content-wrap,
-    .portfolio-overlay:hover .feature-content-wrap,
-    .article-link:hover .article-overlay {
-        background: rgba(201, 42, 39, .9);
-        /*display: block;*/
-    }
-    .article-link:hover .article-overlay {display: block;}
-    .card-content, .feature-content, .article-overlay-content {
-        left: 3em;
-        opacity: 0;
-        position: absolute;
-        top: 5em;
-    }
-    .card-overlay:hover .card-content,
-    .portfolio-overlay:hover .feature-content,
-    .article-link:hover .article-overlay-content {
-        opacity: 1;
-        top: 3em;
-    }
-    .card-content h3, .feature-content h3, .article-overlay-content h3 {
-        font-size: 2.4em;
-        margin-bottom: .5em;
-    }
-    .card-content p.more, .feature-content p.more {
-        display: inline-block;
-    }
-    .feature-content ul.work-labels, .article-overlay ul.work-labels {
-        display: block;
-    }
-    .portfolio-item-half, .portfolio-group {
-        float: left;
-        margin-right: 1.58730158730159%; /* 20px / 1260px */
-        overflow: hidden;
-        width: 49.20634920634921%; /* 620px / 1260px */
-    }
-    .portfolio-item-quarter {
-        float: left;
-        margin-right: 3.2258064516129%; /* 20px / 1260px */
-        overflow: hidden;
-        width: 48.38709677419355%; /* 300px / 620px */
-    }
-    .portfolio-group .portfolio-item-half {
-        margin-bottom: 03.2258064516129%;
-        width: 100%;
-    }
-    .item-end {
-        margin-right: 0;
-    }
-    .portfolio-item blockquote p {
-        font-size: 1.8em;
-    }
     /* Footer
     -------------------------------------------*/
-    .footer-wrap {
-        padding: 5em 0;
+    .quote {
+        padding: 6em 2em;
     }
-    .footer-mod {
-        float: left;
-        margin-right: 1.58730158730159%; /* 20px / 1260px */
-        width: 23.80952380952381%; /* 300px / 1260px */
+    .quote h4 {
+        font-size: 3em;
     }
-    .footer-mod:last-child {width: 22.22222222222222%; /* 280px / 1260px */}
-    .footer-brand h6 {margin-left: 10%;}
-    .copyright {clear: both;}
     #footer a.top {
         background: rgba(34,34,34,.5);
         bottom: 0;
@@ -263,40 +184,8 @@
         font-size: 1.8em;
         margin-left: .7em;
     }
-    .c-notice-wrap {padding: 3em;}
     /* Pages
     -------------------------------------------*/
-    .nav-work {padding: 4em 0 5em 0;}
-    .nav-work h5 {
-        float: left;
-        margin-left: 2.5%;
-    }
-    .nav-work ul {
-        float: right;
-        width: 49.20634920634921%; /* 620px / 1260px */
-    }
-    .nav-work li {
-        float: left;
-        margin-right: 1.5em;
-        margin-bottom: .4em;
-    }
-    .nav-work li:last-child {
-        margin-right: 0;
-    }
-
-    .news-wrap .article {
-        float: left;
-        margin-right: 1.58730158730159%;
-        width: 49.20634920634921%; /* 620px / 1260px */
-    }
-    .news-wrap .article-compact .article-image,
-    .news-wrap .article-compact .entry-header,
-    .news-wrap .article-compact .entry-content {
-        float: left;
-        width: 50%; /* 310px / 620px */
-    }
-    .news-wrap .article:nth-child(2n) {margin-right: 0;}
-
 }
 
 /*-------------------------------------------------------------------------------------------------------------------
@@ -312,6 +201,21 @@
 @media screen and (min-width: 960px) {
     /* Header
     -------------------------------------------*/
+    .header-wrap {
+        margin-bottom: -30px;
+    }
+    .title-area {
+        margin-bottom: 3em;
+        padding: 5em 0;
+    }
+    .header-image .site-title > a {
+        -webkit-background-size: 240px;
+        -moz-background-size: 240px;
+        -o-background-size: 240px;
+        background-size: 240px; /* Logo image size for small screen */
+        min-height: 146px;
+        width: 241px;
+    }
     .header-intro h3, .subheader h3 {font-size: 2.4em;}
 
     /* Navigation
@@ -323,86 +227,39 @@
     -------------------------------------------*/
     /* Intro
     -------------------------------------------*/
+    .intro-wrap, .form-wrap {
+        float: left;
+        width: 50%;
+    }
+    .intro-wrap {
+        height: 620px;
+        z-index: 100;
+    }
     .intro {
-        padding: 7em 2em;
+        padding-top: 8em;
     }
-    .intro header {
-        float: left;
-        width: 49.20634920634921%;
+    .form-wrap {
+        height: 560px;
+        margin-top: 30px;
     }
-    .intro-content {
-        margin-left: 50.79365079365079%;
-        width: 45%;
+    .form-wrap:before {
+        left: 0;
+        top: 50%;
     }
-    .intro-content h3 {
-        font-size: 2.4em;
-    }
-
-    .featured-card {
-        float: left;
-        margin-right: 1.58730158730159%;
-        width: 23.80952380952381%; /* 300px / 1260px */
-    }
-    .featured-card:nth-child(2n) {
-        margin-right: 1.58730158730159%;
-    }
-    .featured-card:last-child {
-        margin-right: 0;
-    }
-    /* Intro
-    -------------------------------------------*/
-    .card-content h3 {font-size: 2.1em;}
-    .feature-content h3, .article-overlay-content h3 {font-size: 3.6em;}
-    .portfolio-item .quote {
-        padding: 4em; padding-right: 3em;}
-    .portfolio-item blockquote p {font-size: 2.1em;}
-    .portfolio-item blockquote cite b {font-size: 1.1em;}
-
     /* Footer
     -------------------------------------------*/
-    .footer-contact-mod .btn {
-        font-size: 1.4em;
-        padding: 1em 1.4em 1em 1.6em;
-        position: relative;
-        width: 12em;
+    #footer, .quote-wrap {
+        clear: none;
+        margin-top: -30px;
     }
-    .footer-contact-mod .btn:after {
-        position: absolute;
-        right: 1em;
+    .quote {
+        padding-top: 9em;
     }
-    .c-notice-wrap {
-        margin-left: 50.79365079365079%;
-        padding: 4em 0;
-    }
-    .menu-legal li {
-        display: inline;
-    }
-    .menu-legal li:after {
-        margin: 0 0.25rem;
-        color: rgba(132,116,132,0.5);
-        content: '\00a0/';
-    }
-    .menu-legal li:last-child:after {content: '';}
-
-    .sub-navigation li {
-        float: left;
-        width: 23.80952380952381%; /* 300px / 1260px */
-    }
-    .sub-navigation li a.active {
-        border-bottom: 1px solid #fff;
-        /*display: block;*/
-    }
-    .sub-navigation li:first-child {
-        width: 21.82539682539683%;
-    }
-    .sub-navigation li:last-child {
-        margin-right: 0;
+    .quote h4 {
+        font-size: 3.6em;
     }
     /* Pages
     -------------------------------------------*/
-    .nav-work li {
-        margin-right: 2em;
-    }
 }
 
 /*-------------------------------------------------------------------------------------------------------------------
@@ -416,46 +273,91 @@
     1140px - min-width
 --------------------------------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 1140px) {
-    .intro h2 {font-size: 5.8em;}
-    .feature-content, .article-overlay-content {
-        left: 5em;
-        top: 6.5em;
-    }
-    .card-content h3 {font-size: 2.4em;}
-    .article-overlay {padding-top: 4em;}
-    .article-overlay-content {
-        height: 80%;
-    }
-    .portfolio-overlay:hover .feature-content {
-        top: 5em;
-    }
-    .entry-header {padding: 5em; padding-bottom: 3em;}
-    .news-wrap .entry-content {padding: 5em; padding-top:0;}
+  .header-wrap {
+      margin-bottom: -40px;
+  }
+  .title-area {
+      margin-bottom: 4em;
+      padding: 5.5em 0;
+  }
+  .header-image .site-title > a {
+      -webkit-background-size: 280px;
+      -moz-background-size: 280px;
+      -o-background-size: 280px;
+      background-size: 280px; /* Logo image size for small screen */
+      min-height: 171px;
+      width: 281px;
+  }
+  .intro-wrap {
+      height: 720px;
+  }
+  .intro {
+      float: right;
+      padding: 10em 5em 6em 5em;
+  }
+  .intro p {margin-bottom: 2.5em;}
+  .intro h2 {font-size: 4em;}
+  .form-wrap {
+      height: 640px;
+      margin-top: 40px;
+      padding: 6em 5em;
+  }
+  .form-wrap h3 {
+      font-size: 3em;
+      margin-bottom: 1.5em;
+  }
+  .intro, .contact-form {
+      width: 85%;
+  }
+  .form-wrap input[type="text"],
+  .form-wrap input[type="tel"],
+  .form-wrap input[type="email"],
+  .form-wrap textarea {
+      font-size: 1.5em;
+      padding: 15px;
+  }
+  .form-wrap input[type="submit"] {
+      font-size: 1.6em;
+      width: auto;
+  }
+  #footer, .quote-wrap {
+      margin-top: -40px;
+  }
 }
 
 /*-------------------------------------------------------------------------------------------------------------------
     1280px - min-width
 --------------------------------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 1280px) {
-    .intro-content {
-        width: 40%;
-    }
-    .sub-navigation {
-        /*max-width: 1290px;*/
-        /*padding-right: 0;*/
-    }
-    .sub-navigation li, .sub-navigation li:first-child {
-        /*width: 24.6%;  300px / 1260px */
-        width: 23.2%; /* 300px / 1260px */
-    }
-    .portfolio-item blockquote p {font-size: 2.6em;}
+  .title-area {
+      margin-bottom: 5em;
+      padding: 6em 0;
+  }
+  .header-image .site-title > a {
+      -webkit-background-size: 320px;
+      -moz-background-size: 320px;
+      -o-background-size: 320px;
+      background-size: 320px; /* Logo image size for small screen */
+      min-height: 195px;
+      width: 321px;
+  }
 }
 
 /*-------------------------------------------------------------------------------------------------------------------
     1480px - min-width
 --------------------------------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 1480px) {
-
+  .intro-wrap {
+      height: 740px;
+  }
+  .intro {
+      padding: 10em 7em 6em 7em;
+  }
+  .intro h2 {font-size: 4.6em;}
+  .form-wrap {
+      height: 660px;
+      padding: 6em 7em;
+  }
 }
 
 /*-------------------------------------------------------------------------------------------------------------------

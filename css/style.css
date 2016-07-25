@@ -684,7 +684,7 @@ input[type="submit"] {
 }
 
 .site-header {
-    background: rgba(252,222,222,.9);
+    background: rgba(252,222,222,.85);
     margin: 0 auto;
     position: relative;
 }
@@ -988,13 +988,13 @@ input[type="submit"] {
 --------------------------------------------------------------------------------------------------------------------*/
 .intro-wrap {
     background: rgba(255,255,255,1);
-    background: #fff url(../images/logo_silhouette.png) no-repeat center bottom;
-    background-size: cover;
-    clear: both;
-}
-.intro {
-    padding: 5em 3em 5em 3em;
     position: relative;
+}
+
+.intro {
+    background: url(../images/logo_silhouette.png) no-repeat center bottom;
+    background-size: 100%;
+    padding: 5em 3em 5em 3em;
 }
 
 .intro h2 {
@@ -1042,6 +1042,7 @@ input[type="submit"] {
     -ms-transform: rotate(45deg); /* IE 9 */
     -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
     transform: rotate(45deg);
+    z-index: 200;
 }
 
 .form-wrap input[type="text"],
