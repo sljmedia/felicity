@@ -370,6 +370,16 @@
   .intro, .contact-form {
       width: 80%;
   }
+  .intro-wrap {
+      height: 760px;
+  }
+  .intro {
+      padding-top: 12em;
+  }
+  .form-wrap {
+      height: 680px;
+      padding-top: 8em;
+  }
 }
 
 /*-------------------------------------------------------------------------------------------------------------------
