@@ -148,6 +148,7 @@
         padding: 6em 3em;
     }
     .intro h2 {font-size: 3.6em;}
+    .contact-confirm p {font-size: 3em;}
 
     /* Footer
     -------------------------------------------*/
@@ -326,6 +327,8 @@
       font-size: 1.5em;
       width: auto;
   }
+  .contact-confirm p {font-size: 3.6em;}
+
   #footer, .quote-wrap {
       margin-top: -40px;
   }
@@ -394,7 +397,7 @@
     1580px - min-width
 --------------------------------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 1580px) {
-  .intro, .contact-form, .footer-contact {
+  .intro, .contact-form, .footer-contact, .contact-confirm {
       width: 80%;
   }
   .intro-wrap {
@@ -422,7 +425,7 @@
     1780px - min-width
 --------------------------------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 1780px) {
-  .intro, .contact-form, .footer-contact {
+  .intro, .contact-form, .footer-contact, .contact-confirm {
       width: 70%;
   }
 }

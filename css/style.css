@@ -430,7 +430,7 @@ input[type="submit"]:after {
     font-size: 1.2em;
 }
 
-.btn:after {color: #fff;}
+.btn:after {color: #835269;}
 .btn-outline:after {color: #45962e;}
 
 input[type="submit"]:hover,
@@ -1076,6 +1076,12 @@ input[type="submit"] {
     color: #d4b56c;
 }
 
+.contact-confirm p {
+    color: #d4b56c;
+    font: 300 2.1em "brandon-grotesque", "ff-dagny-web-pro", "open-sans", sans-serif;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
 /*-------------------------------------------------------------------------------------------------------------------
     =Footer
 --------------------------------------------------------------------------------------------------------------------*/
@@ -1089,7 +1095,7 @@ input[type="submit"] {
 /* Quote
 -------------------------------------------------- */
 .quote-wrap {
-    background: rgba(254,219,219,.4);
+    background: rgba(254,219,219,.5);
     clear: both;
 }
 
