@@ -406,7 +406,7 @@ input[type="submit"],
     display: inline-block;
     font: 600 1.4em "brandon-grotesque", "ff-dagny-web-pro", "open-sans", sans-serif;
     letter-spacing: 1px;
-    padding: 1.2em 1.7em;
+    padding: 1em 1.7em;
     text-transform: uppercase;
     word-spacing: 1px;
 
@@ -1049,8 +1049,7 @@ input[type="submit"] {
 .form-wrap input[type="email"],
 .form-wrap textarea {
     background: rgba(255,255,255,.1);
-    border: 1px solid #d4b56c;
-    border: 0 none;
+    border: 1px solid #835269;
     color: #d4b56c;
     font-size: 1.3em;
     text-transform: uppercase;
