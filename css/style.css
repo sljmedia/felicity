@@ -318,13 +318,13 @@ a:hover, a:focus {
 /* Text selection colour
 -------------------------------------------------*/
 ::-moz-selection {
-    background-color: #7f7a7c;
-    color: #272520;
+    background-color: #fbe5e7;
+    color: #251c21;
 }
 
 ::selection {
-    background-color: #7f7a7c;
-    color: #272520;
+    background-color: #fbe5e7;
+    color: #251c21;
 }
 
 /*-------------------------------------------------------------------------------------------------------------------
