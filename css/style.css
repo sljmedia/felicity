@@ -1139,22 +1139,31 @@ input[type="submit"] {
 
 /* Copyright
 -------------------------------------------------- */
-p.c-notice, p.phone {
-    color: #d4b56c;
-    font-family: "brandon-grotesque", "ff-dagny-web-pro", "open-sans", sans-serif;
-    letter-spacing: .075em;
-}
-
-p.phone {
-    /*display: inline-block;*/
-    font-size: 1.8em;
-    font-weight: 400;
+.phone {
     padding-bottom: 2em;
     position: relative;
     text-align: center;
 }
 
-p.phone:after {
+p.c-notice, .phone li {
+    color: #d4b56c;
+    font-family: "brandon-grotesque", "ff-dagny-web-pro", "open-sans", sans-serif;
+    letter-spacing: .075em;
+}
+
+.phone li {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.phone li b {
+    color: #c2a5b5;
+    font-size: .7em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.phone:after {
     background: #d4b56c;
     content: "";
     display: block;

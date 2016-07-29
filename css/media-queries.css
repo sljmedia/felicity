@@ -262,8 +262,8 @@
     .footer-contact {
         padding: 5em 2em;
     }
-    p.phone {
-        font-size: 2.1em;
+    .phone li {
+        font-size: 1.4em;
     }
     /* Pages
     -------------------------------------------*/
@@ -339,10 +339,10 @@
   .quote h4 {
       font-size: 4.6em;
   }
-  p.phone {
-      font-size: 2.4em;
+  .phone li {
+      font-size: 1.6em;
   }
-  p.phone:after {
+  .phone:after {
       height: 4px;
       margin: 15px 0 0 -50px;
       width: 100px;
