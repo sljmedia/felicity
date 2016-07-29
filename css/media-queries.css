@@ -235,6 +235,9 @@
     .intro-wrap {
         height: 620px;
         z-index: 100;
+        -webkit-box-shadow: 10px 14px 74px 0px rgba(0,0,0,0.12);
+        -moz-box-shadow: 10px 14px 74px 0px rgba(0,0,0,0.12);
+        box-shadow: 10px 14px 74px 0px rgba(0,0,0,0.12);
     }
     .intro {
         padding-top: 8em;
