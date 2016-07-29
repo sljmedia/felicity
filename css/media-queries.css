@@ -245,6 +245,7 @@
     }
     .form-wrap:before {
         left: 0;
+        margin-top: -15px;
         top: 50%;
     }
     /* Footer
@@ -351,7 +352,7 @@
       font-size: 1.4em;
       left: 4em;
       position: absolute;
-      top: 4.5em;
+      top: 6.5em;
   }
 }
 
