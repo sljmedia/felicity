@@ -306,7 +306,7 @@
       float: right;
       padding: 10em 5em 6em 5em;
   }
-  .intro p {margin-bottom: 2.5em;}
+  .intro p {margin-bottom: 2em;}
   .intro h2 {font-size: 4em;}
   .form-wrap {
       height: 640px;
@@ -389,7 +389,6 @@
   }
   .intro h2 {
       font-size: 5em;
-      margin-bottom: 1em;
   }
   .form-wrap {
       height: 660px;
